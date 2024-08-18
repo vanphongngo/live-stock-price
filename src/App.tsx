@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import StockPriceUpdater from "./components/StockPriceUpdater";
+import StockListPriceUpdater from "./components/StockListPriceUpdater";
+import StockSinglePriceUpdater from "./components/StockSinglePriceUpdater";
 
 function App() {
   return (
     <div className="App">
-      <StockPriceUpdater />
+      <StockSinglePriceUpdater />
+      <StockListPriceUpdater />
     </div>
   );
 }
